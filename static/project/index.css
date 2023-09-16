@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    color:white;
+    overflow-x: hidden;
+}
+table{
+    border:2px solid grey;
+    /* background-color: grey; */
+   
+}
+
+.table{
+    display: block;
+    height:90vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    text-align: center;
+    margin:auto;
+    justify-content: center;
+    margin: 10px;
+    max-width:280px;
+}
+
+th{
+    font-size: 150%;
+}
+td{
+   border-bottom:2px solid grey; 
+}
+
+.notes{
+    
+    color:red;
+    max-width:800px;
+    margin:auto;
+}
